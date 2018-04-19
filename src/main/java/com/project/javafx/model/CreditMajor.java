@@ -34,7 +34,6 @@ public class CreditMajor {
 
     // TODO: 13/04/2018  ae add them method nhe
 
-
     // getter and setter
     public String getTitleMajor() {
         return majorTitle;

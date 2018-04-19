@@ -7,8 +7,12 @@
       "majorCreditsRequired": 444,
       "minorCreditsRequired": 44
     },
+    "passedMajorCredits": 0,
+    "passedMinorCredits": 0,
     "currentCredits": 0,
+    "maxCurrentCredits": 0,
     "GPA": 0.0,
+    "CPA": 0.0,
     "studentID": 1299303597,
     "firstName": "Minh",
     "lastName": "Nguyễn Quang",
@@ -219,8 +223,12 @@
         ]
       }
     },
+    "passedMajorCredits": 0,
+    "passedMinorCredits": 0,
     "currentCredits": 0,
+    "maxCurrentCredits": 0,
     "GPA": 0.0,
+    "CPA": 0.0,
     "passedCourses": [],
     "studentID": 34234,
     "firstName": "2342342342",

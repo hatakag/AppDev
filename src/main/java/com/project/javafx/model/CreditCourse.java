@@ -12,10 +12,23 @@ public class CreditCourse extends Course{
         super(courseCode, courseName);
         this.creditHours = creditHours;
     }
+
     public CreditCourse(String courseCode, String courseName, int creditHours, List<String> prerequisiteCourse) {
         super(courseCode, courseName);
         this.creditHours = creditHours;
         this.prerequisiteCourse = prerequisiteCourse;
+    }
+
+    public int getCreditHours() {
+        return creditHours;
+    }
+
+    public void setCreditHours(int creditHours) {
+        this.creditHours = creditHours;
+    }
+
+    public List<String> getPrerequisiteCourse() {
+        return prerequisiteCourse;
     }
 
     public boolean addPrequisiteCourse(String courseCode) {
