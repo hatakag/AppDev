@@ -53,6 +53,8 @@ public class StudentsController implements Initializable {
     @FXML
     private TableColumn<Student, String> educationSystem;
     @FXML
+    private TableColumn colAction;
+    @FXML
     private JFXRadioButton idFilter;
     @FXML
     private JFXRadioButton nameFilter;

@@ -78,6 +78,18 @@ public class CourseRepository extends AbstractRepository<Course, String> {
                 .collect(Collectors.toSet());
     }
 
+    public Set<CreditCourse> findAllCreditCourse() {
+        Set<CreditCourse> creditCourses = new HashSet<>();
+        Document query = new Document("creditHours", new Document("$ne", null));
+        Set<Course> courses = getObjectCollection(query, CreditCourse.class);
+        for (Course cours : courses) {
+            if (cours instanceof CreditCourse) {
+                creditCourses.add((CreditCourse) cours);
+            }
+        }
+        return creditCourses;
+    }
+
     @Override
     protected String getID(Course e) {
         return e.getCourseCode();

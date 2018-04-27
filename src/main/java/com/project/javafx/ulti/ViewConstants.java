@@ -26,6 +26,9 @@ public class ViewConstants {
     public static final String ADD_ANNUAL_VIEW = "/view/annual/AddAnnual.fxml";
     public static final String ADD_COURSE_LIST_VIEW = "/view/annual/AddClassCourseList.fxml";
 
+    public static final String ADD_MAJOR_VIEW = "/view/major_class/AddMajor.fxml";
+    public static final String ADD_COURSE_LIST_MAJOR_VIEW = "/view/major_class/AddCourseList.fxml";
+
 
     public static final String MAJORS_VIEW = "/view/major/CreditMajors.fxml";
     public static final String ADD_MAJOR_VIEW = "/view/major/AddCreditMajor.fxml";
